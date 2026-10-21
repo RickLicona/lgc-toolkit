@@ -5,7 +5,8 @@ They are **not part of the package API**: they show one recommended way of build
 LGC scope. The decisions marked below belong to the scientist. No data are included: Team Metrics is a private
 dataset and DEAP is not redistributed (request it from its authors).
 
-Requirements: the package plus pandas (`pip install -e . pandas`). Run from the repository root, e.g.
+Requirements: the package plus pandas (`pip install lgc-toolkit pandas`) and a clone of this repository, which
+contains the examples. Run from the repository root, e.g.
 `python examples/csv_quickstart.py --data eeg_dataset.csv --channels Fp1 Fp2 --fs 128`.
 
 | Example | Pipeline | Data access | What you decide |
