@@ -10,8 +10,8 @@ The toolkit provides symmetric and random neighbourhoods and supports integratio
 Transformation followed by a minimum-distance-to-mean classifier (RCT + MDM) and with calibrated Tangent Space
 Alignment followed by logistic regression (TSA-LR).
 
-<!-- Zenodo DOI badge goes here after the deposit:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.<concept id>.svg)](https://doi.org/10.5281/zenodo.<concept id>) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23522859.svg)](https://doi.org/10.5281/zenodo.23522859)
+
 Version `0.1.0`. Distribution name `lgc-toolkit`, import name `lgctk`.
 
 ---
@@ -136,14 +136,14 @@ scientist's benchmark design and is validated before any fit. See [docs/PROTOCOL
 ## Installation
 
 ```bash
-pip install git+https://github.com/RickLicona/lgc-toolkit
-```
-
-<!-- PyPI: after publishing, make this the first option:
-```bash
 pip install lgc-toolkit
 ```
--->
+
+Development version from GitHub:
+
+```bash
+pip install git+https://github.com/RickLicona/lgc-toolkit
+```
 
 To run the tests and the worked examples, clone the repository:
 
@@ -435,18 +435,19 @@ lgc-toolkit/
 ## Citation
 
 If you use lgc-toolkit, please cite the software version used in your experiments (metadata in
-[CITATION.cff](CITATION.cff)). A Zenodo DOI will be added with the first archived release.
-<!-- Zenodo: after the deposit, replace the sentence above with the concept DOI (all versions) and add
-     doi = {10.5281/zenodo.<version id>} and publisher = {Zenodo} to the entry below. -->
+[CITATION.cff](CITATION.cff)). The DOI [10.5281/zenodo.23522859](https://doi.org/10.5281/zenodo.23522859) covers
+all versions and resolves to the latest one; the DOI of each version is listed on its Zenodo page.
 
 ```bibtex
 @software{licona2026lgctoolkit,
-  author  = {Licona Mu{\~n}oz, Ricardo and Guetschel, Pierre and Bruin, Juliette and
-             Yilmaz, Efecan and Brouwer, Anne-Marie},
-  title   = {lgc-toolkit: Local Geometric Consistency for cross-subject {EEG} transfer learning},
-  year    = {2026},
-  version = {0.1.0},
-  url     = {https://github.com/RickLicona/lgc-toolkit}
+  author    = {Licona Mu{\~n}oz, Ricardo and Guetschel, Pierre and Bruin, Juliette and
+               Yilmaz, Efecan and Brouwer, Anne-Marie},
+  title     = {lgc-toolkit: Local Geometric Consistency for cross-subject {EEG} transfer learning},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {0.1.0},
+  doi       = {10.5281/zenodo.23522859},
+  url       = {https://github.com/RickLicona/lgc-toolkit}
 }
 ```
 
