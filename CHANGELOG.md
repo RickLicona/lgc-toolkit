@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0.dev0 (unreleased)
+## 0.1.0 (2026-10-21)
 First release of `lgc-toolkit` (import `lgctk`), superseding `lgc-rct` for new work.
 
 - **LGC.** Symmetric neighbourhoods (`lgc_symmetric`, `symmetric_neighbourhoods`) and random neighbourhoods

@@ -18,7 +18,7 @@ authors:
     given-names: "Efecan"
   - family-names: "Brouwer"
     given-names: "Anne-Marie"
-version: "0.1.0.dev0"
+version: "0.1.0"
 # doi: "10.5281/zenodo.<version id>"   (uncomment after the Zenodo deposit)
 license: MIT
 repository-code: "https://github.com/RickLicona/lgc-toolkit"

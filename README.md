@@ -12,7 +12,7 @@ Alignment followed by logistic regression (TSA-LR).
 
 <!-- Zenodo DOI badge goes here after the deposit:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.<concept id>.svg)](https://doi.org/10.5281/zenodo.<concept id>) -->
-Version `0.1.0.dev0` (development release). Distribution name `lgc-toolkit`, import name `lgctk`.
+Version `0.1.0`. Distribution name `lgc-toolkit`, import name `lgctk`.
 
 ---
 
@@ -445,7 +445,7 @@ If you use lgc-toolkit, please cite the software version used in your experiment
              Yilmaz, Efecan and Brouwer, Anne-Marie},
   title   = {lgc-toolkit: Local Geometric Consistency for cross-subject {EEG} transfer learning},
   year    = {2026},
-  version = {0.1.0.dev0},
+  version = {0.1.0},
   url     = {https://github.com/RickLicona/lgc-toolkit}
 }
 ```

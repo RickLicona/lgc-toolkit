@@ -17,7 +17,7 @@ from .lgc import lgc_random, lgc_symmetric, random_neighbourhoods, symmetric_nei
 from .pipelines import RCTMDM, TSALR
 from .validation import MetadataError, check_partition, segment_runs
 
-__version__ = "0.1.0.dev0"
+__version__ = "0.1.0"
 
 __all__ = [
     "CalibratedLOSOResult",

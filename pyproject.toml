@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lgc-toolkit"
-version = "0.1.0.dev0"
+version = "0.1.0"
 description = "Local Geometric Consistency (LGC) for cross-subject EEG transfer learning: Riemannian aggregation of covariance matrices within recording segments, with unsupervised (RCT + MDM) and calibration-based (TSA-LR) domain adaptation and leave-one-subject-out evaluation."
 readme = "README.md"
 license = "MIT"
