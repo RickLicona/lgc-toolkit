@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lgc-toolkit"
+version = "0.1.0.dev0"
+description = "Local Geometric Consistency (LGC) for cross-subject EEG transfer learning: Riemannian aggregation of covariance matrices within recording segments, with unsupervised (RCT + MDM) and calibration-based (TSA-LR) domain adaptation and leave-one-subject-out evaluation."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Ricardo Licona Muñoz" },
+    { name = "Pierre Guetschel" },
+    { name = "Juliette Bruin" },
+    { name = "Efecan Yilmaz" },
+    { name = "Anne-Marie Brouwer" },
+]
+keywords = [
+    "EEG",
+    "passive BCI",
+    "brain-computer interface",
+    "Riemannian geometry",
+    "transfer learning",
+    "domain adaptation",
+    "covariance matrices",
+    "cross-subject generalization",
+    "mental workload",
+    "emotion recognition",
+    "cognitive state decoding",
+    "neurotechnology",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.26.4",
+    "scipy>=1.13.1",
+    "scikit-learn>=1.4.2",
+    "pyriemann>=0.9,<0.10",
+    "threadpoolctl>=3.5.0",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Human Machine Interfaces",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/RickLicona/lgc-toolkit"
+Repository = "https://github.com/RickLicona/lgc-toolkit"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

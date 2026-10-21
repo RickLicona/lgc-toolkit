@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+type: software
+title: "lgc-toolkit: Local Geometric Consistency for cross-subject EEG transfer learning"
+abstract: >-
+  A Python implementation of Local Geometric Consistency (LGC) for cross-subject EEG classification. LGC aggregates
+  neighbouring covariance matrices through Riemannian averaging within recording segments; the toolkit provides
+  symmetric and random neighbourhoods, RCT + MDM with an unlabelled target, calibrated TSA with logistic regression,
+  and leave-one-subject-out evaluators that alone hold the evaluation labels.
+authors:
+  - family-names: "Licona Muñoz"
+    given-names: "Ricardo"
+  - family-names: "Guetschel"
+    given-names: "Pierre"
+  - family-names: "Bruin"
+    given-names: "Juliette"
+  - family-names: "Yilmaz"
+    given-names: "Efecan"
+  - family-names: "Brouwer"
+    given-names: "Anne-Marie"
+version: "0.1.0.dev0"
+# doi: "10.5281/zenodo.<version id>"   (uncomment after the Zenodo deposit)
+license: MIT
+repository-code: "https://github.com/RickLicona/lgc-toolkit"
+keywords:
+  - EEG
+  - passive BCI
+  - brain-computer interface
+  - transfer learning
+  - domain adaptation
+  - Riemannian geometry
+  - covariance matrices

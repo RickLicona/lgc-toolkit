@@ -1,0 +1,6 @@
+# Source distribution: everything needed to run the tests and the examples from the archive.
+include README.md CHANGELOG.md CORRECTIONS.md VALIDATION.md CITATION.cff LICENSE
+recursive-include tests *.py
+recursive-include examples *.py *.md
+recursive-include docs *.md
+prune docs/internal

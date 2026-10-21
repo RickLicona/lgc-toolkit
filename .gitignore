@@ -1,0 +1,31 @@
+# --- internal notes (never published) ---
+docs/internal/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+.DS_Store
+
+# --- PyCharm template file (not part of the package) ---
+main.py
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# --- data and local results (DEAP cannot be redistributed; Team Metrics availability TBD) ---
+data/
+results/
+*.npz
+*.mat
+*.fif
+*.csv.gz
+
+# --- local parity scripts (read private references by path; never published) ---
+parity/
